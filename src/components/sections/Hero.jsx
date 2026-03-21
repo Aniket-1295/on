@@ -157,6 +157,132 @@ function DealPrioritizationCard() {
   )
 }
 
+
+function SupportCard() {
+  return (
+        <div className="flex flex-col overflow-hidden bg-white h-full border-slate-200 border rounded-3xl pt-8 pr-8 pb-8 pl-8 relative shadow-sm animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.6s both' }}>
+          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>24/7 AI Support</span><span>#4</span></div>
+          <div className="flex-1 flex items-center justify-center relative w-full pt-4">
+            <div className="overflow-hidden flex flex-col z-0 bg-gradient-to-br from-[#f0f9ff] to-[#fcfcff] w-full h-full border-slate-100 border rounded-2xl relative justify-center items-center">
+              <div className="relative w-[180px] h-[180px] z-10 scale-90 sm:scale-100 mt-2" style={{ animation: 'gentle-float 6s ease-in-out infinite' }}>
+                <svg viewBox="0 0 100 100" className="w-full h-full overflow-visible">
+                  <defs><linearGradient id="radarGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#38BDF8" stopOpacity="0.85" /><stop offset="100%" stopColor="#818CF8" stopOpacity="0.85" /></linearGradient></defs>
+                  <polygon points="50,5 93,36 76,86 24,86 7,36" fill="none" stroke="#E2E8F0" strokeWidth="1.5" />
+                  <polygon points="50,23 80,45 68,75 32,75 20,45" fill="none" stroke="#E2E8F0" strokeWidth="1.5" />
+                  <polygon points="50,40 65,51 59,65 41,65 35,51" fill="none" stroke="#E2E8F0" strokeWidth="1.5" />
+                  <line x1="50" y1="50" x2="50" y2="5" stroke="#E2E8F0" strokeWidth="1.5" /><line x1="50" y1="50" x2="93" y2="36" stroke="#E2E8F0" strokeWidth="1.5" /><line x1="50" y1="50" x2="76" y2="86" stroke="#E2E8F0" strokeWidth="1.5" /><line x1="50" y1="50" x2="24" y2="86" stroke="#E2E8F0" strokeWidth="1.5" /><line x1="50" y1="50" x2="7" y2="36" stroke="#E2E8F0" strokeWidth="1.5" />
+                  <polygon points="50,20 80,45 55,75 30,86 20,45" fill="url(#radarGrad)" stroke="none" className="drop-shadow-md radar-fill-anim" />
+                  <path d="M 50,20 L 80,45 L 55,75 L 30,86 L 20,45 Z" fill="none" stroke="#0EA5E9" strokeWidth="1.5" strokeLinejoin="round" className="drop-shadow-md radar-stroke-anim" />
+                  <circle cx="50" cy="20" r="2.5" fill="white" stroke="#0EA5E9" strokeWidth="1.5" className="radar-pt-1" style={{ transformOrigin: '50px 20px' }} />
+                  <circle cx="80" cy="45" r="2.5" fill="white" stroke="#0EA5E9" strokeWidth="1.5" className="radar-pt-2" style={{ transformOrigin: '80px 45px' }} />
+                  <circle cx="55" cy="75" r="2.5" fill="white" stroke="#0EA5E9" strokeWidth="1.5" className="radar-pt-3" style={{ transformOrigin: '55px 75px' }} />
+                  <circle cx="30" cy="86" r="2.5" fill="white" stroke="#0EA5E9" strokeWidth="1.5" className="radar-pt-4" style={{ transformOrigin: '30px 86px' }} />
+                  <circle cx="20" cy="45" r="2.5" fill="white" stroke="#0EA5E9" strokeWidth="1.5" className="radar-pt-5" style={{ transformOrigin: '20px 45px' }} />
+                </svg>
+                <div className="absolute -top-4 left-1/2 -translate-x-1/2 text-center flex flex-col items-center"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Organic</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">589</span></div>
+                <div className="absolute top-6 -right-6 text-left font-medium uppercase tracking-wide text-gray-400 text-[9px] flex flex-col items-start">Direct<span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">402</span></div>
+                <div className="absolute bottom-6 -right-5 text-left flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Referral</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">205</span></div>
+                <div className="absolute -bottom-4 right-8 text-right flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Paid</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">82</span></div>
+                <div className="absolute -bottom-2 -left-4 text-left flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Social</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">317</span></div>
+                <div className="absolute top-10 -left-8 text-left flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Events</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">356</span></div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-auto text-center relative z-20 pt-8">
+            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Round-the-Clock Support</h3>
+            <p className="leading-relaxed text-base text-slate-500 text-left px-2">AI call automation that never sleeps, ensuring your customers always have a reliable contact point every hour of the day.</p>
+          </div>
+        </div>
+
+  )
+}
+
+function MultilingualCard() {
+  return (
+        <div className="flex flex-col overflow-hidden bg-white h-full border-slate-200 border rounded-3xl pt-8 pr-8 pb-8 pl-8 relative shadow-sm animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.7s both' }}>
+          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>Multilingual AI</span><span>#5</span></div>
+          <div className="flex-1 flex items-center justify-center relative w-full pt-4">
+            <div className="overflow-hidden flex flex-col z-0 bg-gradient-to-br from-[#fffaf7] to-[#fffdfc] w-full h-full border-slate-100 border rounded-2xl p-4 relative justify-center items-center">
+              <div className="w-full flex justify-between items-start mb-6 relative z-20">
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-full bg-orange-50/50 border border-orange-100/50 flex items-center justify-center shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-orange-400"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg>
+                  </div>
+                  <h3 className="text-[13px] font-semibold text-gray-900 leading-tight">Archetypes</h3>
+                </div>
+              </div>
+              <div className="flex-1 flex w-full items-center justify-between relative z-10 px-0 sm:px-2 gap-2">
+                <div className="relative w-[110px] h-[110px] sm:w-[130px] sm:h-[130px] flex-shrink-0">
+                  <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90 drop-shadow-sm relative z-10">
+                    <circle cx="50" cy="50" r="35" fill="none" stroke="#F1F5F9" strokeWidth="25" className="donut-seg-1" style={{ strokeDasharray: '0 220' }} />
+                    <circle cx="50" cy="50" r="35" fill="none" stroke="#FF7B7B" strokeWidth="25" strokeDashoffset="-25" className="donut-seg-2" style={{ strokeDasharray: '0 220' }} />
+                    <circle cx="50" cy="50" r="35" fill="none" stroke="#4ECDC4" strokeWidth="25" strokeDashoffset="-60" className="donut-seg-3" style={{ strokeDasharray: '0 220' }} />
+                    <circle cx="50" cy="50" r="35" fill="none" stroke="#FFD166" strokeWidth="25" strokeDashoffset="-90" className="donut-seg-4" style={{ strokeDasharray: '0 220' }} />
+                    <circle cx="50" cy="50" r="35" fill="none" stroke="#A7F3D0" strokeWidth="25" strokeDashoffset="-170" className="donut-seg-5" style={{ strokeDasharray: '0 220' }} />
+                  </svg>
+                  <div className="absolute top-0 right-0 translate-x-1 sm:translate-x-2 -translate-y-2 z-20 donut-text-container opacity-0">
+                    <div className="bg-white border border-gray-100 text-gray-700 px-2 py-0.5 rounded-md text-[9px] font-semibold shadow-sm" style={{ animation: 'gentle-float 4s ease-in-out infinite' }}>12,842</div>
+                  </div>
+                </div>
+                <div className="flex flex-col gap-2 relative z-10">
+                  {[
+                    { color: 'bg-[#4ECDC4]', label: 'Enterprise', delay: '0s' },
+                    { color: 'bg-[#FF7B7B]', label: 'Mid-Market', delay: '0.5s' },
+                    { color: 'bg-[#A7F3D0]', label: 'Strategic', delay: '1s' },
+                    { color: 'bg-[#F1F5F9] border border-gray-200', label: 'Transactional', delay: '1.5s' },
+                    { color: 'bg-[#FFD166]', label: 'Global', delay: '2s' },
+                  ].map(({ color, label, delay }) => (
+                    <div key={label} className="flex items-center gap-2">
+                      <div className={`w-1.5 h-1.5 rounded-full ${color} shadow-sm`} style={{ animation: `soft-pulse-opacity 2.5s ease-in-out infinite ${delay}` }}></div>
+                      <span className="text-[11px] font-medium text-gray-600">{label}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-auto text-center relative z-20 pt-8">
+            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">100+ Language Support</h3>
+            <p className="leading-relaxed text-base text-slate-500 text-left px-2">Serve global audiences with multilingual AI Voice Agents, capable of switching between 100+ languages for seamless customer experiences.</p>
+          </div>
+        </div>
+
+  )
+}
+
+function SchedulingCard() {
+  return (
+        <div className="flex flex-col overflow-hidden bg-white h-full border-slate-200 border rounded-3xl pt-8 pr-8 pb-8 pl-8 relative shadow-sm animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.8s both' }}>
+          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>Appointment Scheduling</span><span>#6</span></div>
+          <div className="flex-1 flex items-center justify-center relative w-full pt-4">
+            <div className="overflow-hidden flex flex-col z-0 bg-slate-50 w-full h-full border-slate-100 border rounded-2xl p-4 relative justify-center items-center shadow-inner">
+              <div className="w-full bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl p-5 shadow-[inset_0_2px_10px_rgba(0,0,0,0.4)] border border-gray-950 relative z-10 flex flex-col h-full overflow-hidden">
+                <div className="flex gap-1.5 mb-5 shrink-0">
+                  <div className="w-2.5 h-2.5 rounded-full bg-gray-600" style={{ animation: 'soft-pulse-opacity 4s ease-in-out infinite 0s' }}></div>
+                  <div className="w-2.5 h-2.5 rounded-full bg-gray-600" style={{ animation: 'soft-pulse-opacity 4s ease-in-out infinite 2s' }}></div>
+                  <div className="w-2.5 h-2.5 rounded-full bg-emerald-500 shadow-[0_0_5px_rgba(16,185,129,0.8)] animate-pulse"></div>
+                </div>
+                <div className="flex-1 overflow-hidden relative">
+                  <div className="flex flex-col gap-3.5 opacity-90 font-mono text-[11px] text-gray-400" style={{ animation: 'log-scroll 12s ease-in-out infinite' }}>
+                    <div>&gt; [10:24:01] <span className="text-blue-400">AUTH_SUCCESS</span><br /><span className="pl-4 text-gray-500">node_0x44</span></div>
+                    <div>&gt; [10:24:02] <span className="text-purple-400">VALIDATE_PAYLOAD</span><br /><span className="pl-4 text-gray-500">true</span></div>
+                    <div>&gt; [10:24:05] <span className="text-emerald-400">EXECUTE_TX</span><br /><span className="pl-4 text-gray-500">ok</span></div>
+                    <div>&gt; [10:24:06] <span className="text-gray-500" style={{ animation: 'soft-pulse-opacity 2s ease-in-out infinite' }}>AWAITING_SIG...</span><span className="animate-pulse ml-1">_</span></div>
+                    <div>&gt; [10:24:08] <span className="text-sky-400">SYNC_COMPLETE</span><br /><span className="pl-4 text-gray-500">hash_0x8f2</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-auto text-center relative z-20 pt-8">
+            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Automated Scheduling</h3>
+            <p className="leading-relaxed text-base text-slate-500 text-left px-2">AI Voice Agents automate appointment scheduling, letting customers book, reschedule, or cancel in real time with seamless calendar integration.</p>
+          </div>
+        </div>
+
+  )
+}
+
 export default function Hero() {
   return (
     <section className="sm:px-6 lg:px-8 flex flex-col text-center w-full max-w-7xl z-10 mr-auto ml-auto pt-20 pr-4 pb-32 pl-4 relative items-center">
@@ -226,6 +352,9 @@ export default function Hero() {
           <PipelineIntelligenceCard />
           <RevenueForecastingCard />
           <DealPrioritizationCard />
+          <SupportCard />
+          <MultilingualCard />
+          <SchedulingCard />
         </div>
       </div>
     </section>
