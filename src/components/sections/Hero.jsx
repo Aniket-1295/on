@@ -44,8 +44,8 @@ function PipelineIntelligenceCard() {
         </div>
       </div>
       <div className="pt-6 px-3 pb-4 flex-1">
-        <h3 className="text-2xl font-semibold tracking-tight text-gray-900">Pipeline Intelligence</h3>
-        <p className="text-base text-gray-500 mt-2 leading-relaxed">Aggregate every CRM interaction and sales meeting into a unified, high-resolution data pipeline.</p>
+        <h3 className="text-2xl font-semibold tracking-tight text-gray-900">AI Voice Agents</h3>
+        <p className="text-base text-gray-500 mt-2 leading-relaxed">Deploy autonomous AI voice agents that handle inbound and outbound calls 24/7 with human-like tone, contextual understanding, and instant responses.</p>
       </div>
     </div>
   )
@@ -85,8 +85,8 @@ function RevenueForecastingCard() {
         </div>
       </div>
       <div className="pt-2 px-3 pb-4 flex-1">
-        <h3 className="text-2xl font-medium tracking-tight text-gray-900">Revenue Forecasting</h3>
-        <p className="text-base text-gray-500 mt-2 leading-relaxed">Transforms historical data into actionable exit predictions, giving you clarity on quotas and sales throughput.</p>
+        <h3 className="text-2xl font-medium tracking-tight text-gray-900">Smart Analytics</h3>
+        <p className="text-base text-gray-500 mt-2 leading-relaxed">Access insights into call performance, sentiment, and behavior. With AI-powered analytics, you can optimize sales, support, and marketing in real time.</p>
       </div>
     </div>
   )
@@ -150,8 +150,8 @@ function DealPrioritizationCard() {
         </div>
       </div>
       <div className="pt-2 px-3 pb-4 flex-1">
-        <h3 className="text-2xl font-medium tracking-tight text-gray-900">Deal Prioritization</h3>
-        <p className="text-base text-gray-500 mt-2 leading-relaxed">Isolate high-intent accounts and detect deal-stalling anomalies instantly with custom AI rulesets.</p>
+        <h3 className="text-2xl font-medium tracking-tight text-gray-900">Lead Qualification</h3>
+        <p className="text-base text-gray-500 mt-2 leading-relaxed">Use intelligent AI Voice Agents to automatically score and qualify leads based on conversation quality, behavior, and intent.</p>
       </div>
     </div>
   )
@@ -169,22 +169,22 @@ export default function Hero() {
         style={{ animation: 'animationIn 0.8s ease-out 0.2s both' }}
       >
         <span className="flex h-2 w-2 rounded-full bg-emerald-500 mr-2 shadow-[0_0_8px_rgba(16,185,129,0.8)]"></span>
-        <span className="text-xs font-medium text-emerald-700">Revio AI v3.0 is now live</span>
+        <span className="text-xs font-medium text-emerald-700">OnDial AI Voice Agent Platform is now live</span>
       </div>
 
       <h1
         className="sm:text-6xl lg:text-7xl leading-[1.1] text-5xl font-semibold text-[#1c1917] tracking-tight max-w-4xl z-10 relative"
         style={{ animation: 'animationIn 0.8s ease-out 0.3s both' }}
       >
-        Forecast the future,<br className="hidden sm:block" />
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500">accelerate your revenue.</span>
+        Automate Your Calls,<br className="hidden sm:block" />
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500">with OnDial AI Voice Agents.</span>
       </h1>
 
       <p
         className="sm:text-xl leading-relaxed text-lg text-gray-500 max-w-2xl z-10 mt-6 relative"
         style={{ animation: 'animationIn 0.8s ease-out 0.4s both' }}
       >
-        Connect your CRM to Revio's predictive engine to identify pipeline risks, automate reporting, and bridge the gap between sales activity and closed revenue.
+        Create voice agents that have natural, flowing conversations and provide 24/7 customer support with human-like understanding.
       </p>
 
       <div
@@ -215,7 +215,7 @@ export default function Hero() {
 
         <button className="group flex hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] sm:w-auto sm:px-10 sm:py-4 text-slate-600 bg-transparent w-full border-white/40 border rounded-full px-8 py-3.5 relative shadow-sm backdrop-blur-md gap-x-2 gap-y-2 items-center justify-center">
           <div className="absolute inset-0 rounded-full bg-gradient-to-b from-white/20 via-transparent to-transparent opacity-40 pointer-events-none z-10 transition-opacity duration-300 group-hover:opacity-100"></div>
-          <span className="relative z-20 text-base sm:text-lg font-medium tracking-tight">Watch Product Tour</span>
+          <span className="relative z-20 text-base sm:text-lg font-medium tracking-tight">Get a Demo</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="relative z-20 w-5 h-5 transition-transform duration-300 group-hover:scale-110"><circle cx="12" cy="12" r="10" /><polygon points="10 8 16 12 10 16 10 8" /></svg>
         </button>
       </div>

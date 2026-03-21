@@ -2,21 +2,21 @@ import { useEffect, useRef } from 'react'
 
 const testimonials = [
   {
-    quote: "Finally, a tool that bridges the gap between raw CRM data and actual sales execution. The automated rule-sets save us countless hours of manual pipeline review every single week.",
-    name: "Elena Rodriguez",
-    title: "Chief Revenue Officer, Nexus",
+    quote: "OnDial's AI Voice Agents have completely transformed how we handle patient appointment reminders. We reduced no-shows by 45% and our patients love the natural, conversational follow-ups in their local language.",
+    name: "Dr. Priya Nair",
+    title: "Medical Director, HealthFirst Clinics",
     img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&q=80",
   },
   {
-    quote: "Revio's predictive engine is eerily accurate. We caught three major pipeline risks last quarter simply because the AI flagged anomalies in rep activity. It paid for itself in month one.",
-    name: "Marcus Chen",
-    title: "Director of RevOps, TechFlow",
+    quote: "We deployed OnDial for our loan follow-up calls and the results were immediate. The AI responds in under 300ms, handles Hindi and English seamlessly, and our customer satisfaction scores went up by 30% in the first month.",
+    name: "Arjun Mehta",
+    title: "Head of Digital, FinBridge Capital",
     img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&q=80",
   },
   {
-    quote: "The platform has fundamentally changed how we forecast. Instead of guessing, we now have a real-time pulse on our pipeline health. It's given our sales managers the clarity they need to coach reps on the deals that actually drive growth.",
-    name: "Sarah Jenkins",
-    title: "VP of Sales, Velocity",
+    quote: "As a real estate firm handling thousands of property inquiries, OnDial has been a game-changer. Our AI agents qualify leads, schedule viewings, and send market updates 24/7. We haven't missed a single inquiry since onboarding.",
+    name: "Sneha Kapoor",
+    title: "VP of Sales, Prestige Homes",
     img: "https://i.pravatar.cc/150?img=32",
     isTop: true,
   },
@@ -155,8 +155,8 @@ export default function Testimonials() {
         <span className="uppercase text-sm font-medium text-slate-500 tracking-widest">TESTIMONIALS</span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 mb-16 gap-x-8 gap-y-8 items-start animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.2s both' }}>
-        <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-slate-900 leading-[1.15]">Trusted by the world's<br className="hidden lg:block" /> most ambitious sales teams.</h2>
-        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">Discover why thousands of sales professionals rely on Revio to eliminate pipeline uncertainty and hit their revenue targets with absolute confidence every single day.</p>
+        <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-slate-900 leading-[1.15]">Trusted by businesses<br className="hidden lg:block" /> across 20+ industries.</h2>
+        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">Discover why thousands of businesses rely on OnDial AI Voice Agents to automate their phone calls, improve customer satisfaction, and never miss a lead again.</p>
       </div>
 
       {/* Draggable testimonial stack */}

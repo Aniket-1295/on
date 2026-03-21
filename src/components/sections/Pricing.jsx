@@ -22,7 +22,7 @@ export default function Pricing() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 mb-16 gap-x-8 gap-y-8 items-start animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.2s both' }}>
         <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-slate-900 leading-[1.15]">Simple, transparent<br className="hidden lg:block" /> pricing that scales.</h2>
-        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">No hidden fees, no surprise charges. Choose the plan that best fits your needs. Unlock the full power of predictive sales analytics for your team.</p>
+        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">No hidden fees, no surprise charges. Choose the plan that best fits your needs. Unlock the full power of AI Voice Agents and automate your customer communications today.</p>
       </div>
 
       <div className="flex flex-col items-center animate-on-scroll w-full z-10 pt-10 pb-12 relative" style={{ animation: 'animationIn 0.8s ease-out 0.3s both' }}>
@@ -49,19 +49,19 @@ export default function Pricing() {
           <div className="flex flex-col lg:pr-8 pt-2 pr-8 pb-2 space-y-12 animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.4s both' }}>
             {[
               {
-                icon: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-900"><circle cx="18" cy="18" r="3" /><circle cx="6" cy="6" r="3" /><path d="M13 6h3a2 2 0 0 1 2 2v7" /><line x1="6" x2="6" y1="9" y2="21" /></svg>,
-                title: 'Unified Signal Pipeline',
-                desc: 'Synchronize diverse data sources into a single stream of high-resolution operational truth for your entire automation stack.',
+                icon: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-900"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 15a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.93 4h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 11a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 18z" /></svg>,
+                title: 'AI Voice Call Automation',
+                desc: 'Deploy autonomous AI voice agents to handle inbound and outbound calls 24/7 with human-like tone and instant sub-300ms responses.',
               },
               {
-                icon: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-900"><rect width="16" height="16" x="4" y="4" rx="2" /><rect width="6" height="6" x="9" y="9" rx="1" /><path d="M15 2v2" /><path d="M15 20v2" /><path d="M2 15h2" /><path d="M2 9h2" /><path d="M20 15h2" /><path d="M20 9h2" /><path d="M9 2v2" /><path d="M9 20v2" /></svg>,
-                title: 'Deterministic Logic Engine',
-                desc: 'Execute business rules with mathematical precision across distributed edge networks, ensuring consistent outcomes every time.',
+                icon: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-900"><circle cx="12" cy="12" r="10" /><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /><path d="M2 12h20" /></svg>,
+                title: 'Multilingual Support',
+                desc: 'Serve global audiences with intelligent AI Voice Agents capable of switching between 100+ languages for seamless customer experiences.',
               },
               {
                 icon: <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-900"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2" /></svg>,
-                title: 'Real-time Observability',
-                desc: 'Visualize complex execution paths and performance metrics through a high-fidelity dashboard designed for infrastructure teams.',
+                title: 'Real-Time Call Analytics',
+                desc: 'Access insights into call performance, sentiment, and behavior with AI-powered analytics to optimize support and marketing in real time.',
               },
             ].map(({ icon, title, desc }) => (
               <div key={title} className="flex flex-col">
@@ -83,7 +83,7 @@ export default function Pricing() {
               <span className="text-[14px] font-medium text-gray-500 group-hover:text-gray-400 transition-colors duration-300">/mo</span>
             </div>
             <div className="text-[13px] text-gray-400 group-hover:text-gray-500 mb-6 transition-all duration-300 h-5">{prices.standardText}</div>
-            <p className="text-[14px] text-gray-500 group-hover:text-gray-400 mb-8 leading-relaxed transition-colors duration-300">Standard compute capacity for developing and testing automated workflows.</p>
+            <p className="text-[14px] text-gray-500 group-hover:text-gray-400 mb-8 leading-relaxed transition-colors duration-300">Essential AI voice calling capabilities for startups and growing businesses ready to automate customer communications.</p>
             <div className="flex flex-col gap-3 mb-10">
               <button className="w-full py-2.5 rounded-xl bg-gray-900 group-hover:bg-white text-white group-hover:text-gray-900 font-medium text-[14px] transition-all duration-300 shadow-[0_1px_2px_rgba(0,0,0,0.1)] ring-1 ring-inset ring-gray-900/10 group-hover:ring-white/10">Get started</button>
               <button className="w-full py-2.5 rounded-xl bg-white group-hover:bg-gray-800 text-gray-900 group-hover:text-white font-medium text-[14px] border border-gray-200 group-hover:border-gray-700 transition-all duration-300 shadow-sm">Contact sales</button>
@@ -91,7 +91,7 @@ export default function Pricing() {
             <div className="pt-8 border-t border-gray-100 group-hover:border-gray-800 transition-colors duration-300">
               <h4 className="text-[11px] font-semibold text-gray-900 group-hover:text-gray-300 uppercase tracking-widest mb-6 transition-colors duration-300">Included Features</h4>
               <ul className="space-y-4">
-                {['Standard compute instances', 'Core system observability', 'Up to 10 concurrent nodes', '20GB telemetry throughput'].map(f => (
+                {['Up to 1,000 AI calls/month', '5 concurrent AI agents', 'Basic call analytics', 'Email & chat support'].map(f => (
                   <li key={f} className="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-900 group-hover:text-white shrink-0 mt-0.5 transition-colors duration-300"><polyline points="20 6 9 17 4 12" /></svg><span className="text-[14px] text-gray-600 group-hover:text-gray-300 font-medium transition-colors duration-300">{f}</span></li>
                 ))}
               </ul>
@@ -108,7 +108,7 @@ export default function Pricing() {
               <span className="text-[14px] font-medium text-gray-500 group-hover:text-gray-400 transition-colors duration-300">/mo</span>
             </div>
             <div className="text-[13px] text-gray-400 group-hover:text-gray-500 mb-6 transition-all duration-300 h-5">{prices.proText}</div>
-            <p className="text-[14px] text-gray-500 group-hover:text-gray-400 mb-8 leading-relaxed transition-colors duration-300">High-performance isolated environments for mission-critical enterprise systems.</p>
+            <p className="text-[14px] text-gray-500 group-hover:text-gray-400 mb-8 leading-relaxed transition-colors duration-300">High-performance AI voice agent environments for enterprises and mission-critical customer communication systems.</p>
             <div className="flex flex-col gap-3 mb-10">
               <button className="w-full py-2.5 rounded-xl bg-gray-900 group-hover:bg-white text-white group-hover:text-gray-900 font-medium text-[14px] transition-all duration-300 shadow-[0_1px_2px_rgba(0,0,0,0.1)] ring-1 ring-inset ring-gray-900/10 group-hover:ring-white/10">Get started</button>
               <button className="w-full py-2.5 rounded-xl bg-white group-hover:bg-gray-800 text-gray-900 group-hover:text-white font-medium text-[14px] border border-gray-200 group-hover:border-gray-700 transition-all duration-300 shadow-sm">Contact sales</button>
@@ -116,7 +116,7 @@ export default function Pricing() {
             <div className="pt-8 border-t border-gray-100 group-hover:border-gray-800 transition-colors duration-300">
               <h4 className="text-[11px] font-semibold text-gray-900 group-hover:text-gray-300 uppercase tracking-widest mb-6 transition-colors duration-300">Included Features</h4>
               <ul className="space-y-4">
-                {['200+ hardware connectors', 'Advanced execution logs', 'Up to 30 concurrent nodes', '40GB telemetry throughput'].map(f => (
+                {['Up to 10,000 AI calls/month', '30 concurrent AI agents', 'Advanced multilingual support', '100+ language coverage'].map(f => (
                   <li key={f} className="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-900 group-hover:text-white shrink-0 mt-0.5 transition-colors duration-300"><polyline points="20 6 9 17 4 12" /></svg><span className="text-[14px] text-gray-600 group-hover:text-gray-300 font-medium transition-colors duration-300">{f}</span></li>
                 ))}
               </ul>

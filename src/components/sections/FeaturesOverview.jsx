@@ -2,11 +2,11 @@ export default function FeaturesOverview() {
   return (
     <section className="w-full max-w-7xl z-10 mt-8 mr-auto ml-auto pt-24 pr-6 pb-24 pl-6 relative animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.1s both' }}>
       <div className="flex justify-between items-center mb-8 pb-8 border-b border-slate-200/80 animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.1s both' }}>
-        <span className="text-sm font-medium tracking-widest text-slate-500 uppercase">Features overview</span>
+        <span className="text-sm font-medium tracking-widest text-slate-500 uppercase">Platform Capabilities</span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 mb-16 gap-x-8 gap-y-8 items-start animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.2s both' }}>
-        <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-slate-900 leading-[1.15]">You set the revenue<br className="hidden lg:block" /> targets. Revio predicts the rest.</h2>
-        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">Revio's AI monitors your sales pipeline and forecasts revenue for you, 24/7. Perfect for leaders and reps alike. No coding, no guesswork.</p>
+        <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-slate-900 leading-[1.15]">You set the goals.<br className="hidden lg:block" /> OnDial automates the calls.</h2>
+        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">OnDial's AI monitors your voice channels and automates customer conversations for you, 24/7. Perfect for any business size. No coding, no guesswork.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
@@ -14,7 +14,7 @@ export default function FeaturesOverview() {
         {/* Feature Card 1: Pipeline Velocity */}
         <div className="flex flex-col overflow-hidden bg-white h-[480px] border-slate-200 border rounded-3xl pt-8 pr-8 pb-8 pl-8 relative shadow-sm animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.4s both' }}>
           <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20">
-            <span>Pipeline Velocity</span><span>#1</span>
+            <span>AI Voice Agents</span><span>#1</span>
           </div>
           <div className="flex-1 flex flex-col z-10 w-full max-w-[260px] mt-6 mr-auto ml-auto relative justify-center">
             <div className="relative w-full aspect-[2/1] overflow-visible">
@@ -48,14 +48,14 @@ export default function FeaturesOverview() {
             </div>
           </div>
           <div className="mt-auto text-center relative z-20 pt-8">
-            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Spot trends instantly.</h3>
-            <p className="leading-relaxed text-base text-slate-500 text-left px-2">Get instant alerts on key pipeline movements or when deals are at risk.</p>
+            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Always-On Call Automation.</h3>
+            <p className="leading-relaxed text-base text-slate-500 text-left px-2">Get automatic handling of inbound and outbound calls around the clock, never missing a customer inquiry.</p>
           </div>
         </div>
 
         {/* Feature Card 2: AI Forecast Engine */}
         <div className="flex flex-col overflow-hidden bg-white h-[480px] border-slate-200 border rounded-3xl pt-8 pr-8 pb-8 pl-8 relative shadow-sm animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.5s both' }}>
-          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>AI Forecast Engine</span><span>#2</span></div>
+          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>Smart Analytics</span><span>#2</span></div>
           <div className="flex-1 flex items-center justify-center relative w-full mt-2">
             <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex flex-col gap-[14px] opacity-40 z-0">
               <div className="h-[2px] w-full bg-slate-200 relative overflow-hidden"><div className="absolute inset-y-0 left-0 w-1/2 bg-[#50C878]/50" style={{ animation: 'signal-flow 3s linear infinite 0s' }}></div></div>
@@ -83,14 +83,14 @@ export default function FeaturesOverview() {
             </div>
           </div>
           <div className="mt-auto text-center relative z-20 pt-8">
-            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">AI-Powered precision</h3>
-            <p className="leading-relaxed text-base text-slate-500 text-left pr-2 pl-2">Smart and accurate AI-driven engine makes data-backed predictions for optimal sales results.</p>
+            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Real-Time Call Insights</h3>
+            <p className="leading-relaxed text-base text-slate-500 text-left pr-2 pl-2">AI-powered analytics delivers data-backed insights on call performance, sentiment, and customer behavior in real time.</p>
           </div>
         </div>
 
         {/* Feature Card 3: Custom Dashboards */}
         <div className="flex flex-col overflow-hidden bg-white h-[480px] border-slate-200 border rounded-3xl pt-8 pr-8 pb-8 pl-8 relative shadow-sm animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.5s both' }}>
-          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>Custom Dashboards</span><span>#3</span></div>
+          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>Lead Qualification</span><span>#3</span></div>
           <div className="flex-1 flex items-center justify-center relative w-full pt-4">
             <div className="overflow-hidden flex flex-col z-0 bg-gradient-to-br from-[#f2fdf7] to-[#fbfffb] w-full h-full border-slate-100 border rounded-2xl pt-4 pr-4 pb-4 pl-4 relative justify-center">
               <div className="flex flex-col space-y-2 z-10 w-full mb-3 mt-1 px-1">
@@ -124,14 +124,14 @@ export default function FeaturesOverview() {
             </div>
           </div>
           <div className="mt-auto text-center relative z-20 pt-8">
-            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Tailor your experience</h3>
-            <p className="leading-relaxed text-base text-slate-500 text-left px-2">Customize your dashboards to fit your unique sales process, creating just for you.</p>
+            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Intelligent Lead Scoring</h3>
+            <p className="leading-relaxed text-base text-slate-500 text-left px-2">AI Voice Agents automatically score and qualify leads based on conversation quality, behavior and intent signals.</p>
           </div>
         </div>
 
         {/* Feature Card 4: Lead Attribution */}
         <div className="flex flex-col overflow-hidden bg-white h-[480px] border-slate-200 border rounded-3xl pt-8 pr-8 pb-8 pl-8 relative shadow-sm animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.6s both' }}>
-          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>Lead Attribution</span><span>#4</span></div>
+          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>24/7 AI Support</span><span>#4</span></div>
           <div className="flex-1 flex items-center justify-center relative w-full pt-4">
             <div className="overflow-hidden flex flex-col z-0 bg-gradient-to-br from-[#f0f9ff] to-[#fcfcff] w-full h-full border-slate-100 border rounded-2xl relative justify-center items-center">
               <div className="relative w-[180px] h-[180px] z-10 scale-90 sm:scale-100 mt-2" style={{ animation: 'gentle-float 6s ease-in-out infinite' }}>
@@ -159,14 +159,14 @@ export default function FeaturesOverview() {
             </div>
           </div>
           <div className="mt-auto text-center relative z-20 pt-8">
-            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Channel ROI</h3>
-            <p className="leading-relaxed text-base text-slate-500 text-left px-2">Attribution modeling mapped to identify the most effective lead acquisition channels.</p>
+            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Round-the-Clock Support</h3>
+            <p className="leading-relaxed text-base text-slate-500 text-left px-2">AI call automation that never sleeps, ensuring your customers always have a reliable contact point every hour of the day.</p>
           </div>
         </div>
 
         {/* Feature Card 5: Account Scoring */}
         <div className="flex flex-col overflow-hidden bg-white h-[480px] border-slate-200 border rounded-3xl pt-8 pr-8 pb-8 pl-8 relative shadow-sm animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.7s both' }}>
-          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>Account Scoring</span><span>#5</span></div>
+          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>Multilingual AI</span><span>#5</span></div>
           <div className="flex-1 flex items-center justify-center relative w-full pt-4">
             <div className="overflow-hidden flex flex-col z-0 bg-gradient-to-br from-[#fffaf7] to-[#fffdfc] w-full h-full border-slate-100 border rounded-2xl p-4 relative justify-center items-center">
               <div className="w-full flex justify-between items-start mb-6 relative z-20">
@@ -208,14 +208,14 @@ export default function FeaturesOverview() {
             </div>
           </div>
           <div className="mt-auto text-center relative z-20 pt-8">
-            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Predictive Scoring</h3>
-            <p className="leading-relaxed text-base text-slate-500 text-left px-2">Prioritize accounts with the highest propensity to close based on engagement and behavioral depth.</p>
+            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">100+ Language Support</h3>
+            <p className="leading-relaxed text-base text-slate-500 text-left px-2">Serve global audiences with multilingual AI Voice Agents, capable of switching between 100+ languages for seamless customer experiences.</p>
           </div>
         </div>
 
         {/* Feature Card 6: Sales Compliance */}
         <div className="flex flex-col overflow-hidden bg-white h-[480px] border-slate-200 border rounded-3xl pt-8 pr-8 pb-8 pl-8 relative shadow-sm animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.8s both' }}>
-          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>Sales Compliance</span><span>#6</span></div>
+          <div className="flex justify-between text-sm font-medium tracking-widest text-slate-400 uppercase relative z-20"><span>Appointment Scheduling</span><span>#6</span></div>
           <div className="flex-1 flex items-center justify-center relative w-full pt-4">
             <div className="overflow-hidden flex flex-col z-0 bg-slate-50 w-full h-full border-slate-100 border rounded-2xl p-4 relative justify-center items-center shadow-inner">
               <div className="w-full bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl p-5 shadow-[inset_0_2px_10px_rgba(0,0,0,0.4)] border border-gray-950 relative z-10 flex flex-col h-full overflow-hidden">
@@ -237,8 +237,8 @@ export default function FeaturesOverview() {
             </div>
           </div>
           <div className="mt-auto text-center relative z-20 pt-8">
-            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Activity Tracking</h3>
-            <p className="leading-relaxed text-base text-slate-500 text-left px-2">Secure, immutable record of rep activities, system states, and pipeline changes.</p>
+            <h3 className="text-lg font-normal text-slate-900 text-left mb-2">Automated Scheduling</h3>
+            <p className="leading-relaxed text-base text-slate-500 text-left px-2">AI Voice Agents automate appointment scheduling, letting customers book, reschedule, or cancel in real time with seamless calendar integration.</p>
           </div>
         </div>
 
@@ -247,16 +247,16 @@ export default function FeaturesOverview() {
       {/* Bottom features grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 lg:px-4 pr-2 pl-2 gap-x-10 gap-y-10 animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.9s both' }}>
         <div>
-          <div className="flex items-center gap-3 mb-3"><iconify-icon icon="solar:chart-linear" class="text-2xl text-slate-800"></iconify-icon><h4 className="text-lg font-normal text-slate-900">Predictive Analytics</h4></div>
-          <p className="text-base text-slate-500 leading-relaxed max-w-sm">Revio's AI monitors your CRM data and forecasts sales, 24/7.</p>
+          <div className="flex items-center gap-3 mb-3"><iconify-icon icon="solar:phone-calling-linear" class="text-2xl text-slate-800"></iconify-icon><h4 className="text-lg font-normal text-slate-900">Inbound & Outbound Calls</h4></div>
+          <p className="text-base text-slate-500 leading-relaxed max-w-sm">OnDial's AI handles both inbound and outbound phone calls 24/7, responding in under 300ms.</p>
         </div>
         <div>
-          <div className="flex items-center gap-3 mb-3"><iconify-icon icon="solar:bell-linear" class="text-2xl text-slate-800"></iconify-icon><h4 className="text-lg font-normal text-slate-900">Real-Time Insights</h4></div>
-          <p className="text-base text-slate-500 leading-relaxed max-w-sm">Stay informed with real-time analytics and performance tracking.</p>
+          <div className="flex items-center gap-3 mb-3"><iconify-icon icon="solar:translation-linear" class="text-2xl text-slate-800"></iconify-icon><h4 className="text-lg font-normal text-slate-900">100+ Languages</h4></div>
+          <p className="text-base text-slate-500 leading-relaxed max-w-sm">Serve global customers with multilingual AI Voice Agents supporting 100+ languages globally.</p>
         </div>
         <div>
-          <div className="flex items-center gap-3 mb-3"><iconify-icon icon="solar:magic-stick-3-linear" class="text-2xl text-slate-800"></iconify-icon><h4 className="text-lg font-normal text-slate-900">Customizable Forecasts</h4></div>
-          <p className="text-base text-slate-500 leading-relaxed max-w-sm">You control the parameters and growth targets—Revio does the rest.</p>
+          <div className="flex items-center gap-3 mb-3"><iconify-icon icon="solar:buildings-2-linear" class="text-2xl text-slate-800"></iconify-icon><h4 className="text-lg font-normal text-slate-900">20+ Industries Served</h4></div>
+          <p className="text-base text-slate-500 leading-relaxed max-w-sm">From healthcare to agriculture, OnDial powers voice automation across 20+ industries.</p>
         </div>
       </div>
     </section>

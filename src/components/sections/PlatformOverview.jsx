@@ -3,7 +3,7 @@ import SectionDecor from '../ui/SectionDecor.jsx'
 function DashboardSidebar() {
   return (
     <aside className="lg:w-[260px] shrink-0 flex-col hidden lg:flex overflow-y-auto custom-scrollbar bg-[#FBFBFC] w-full border-gray-200/60 border-r pt-8 pr-4 pb-6 pl-4">
-      <div className="shrink-0 mb-10 pr-4 pl-4"><span className="text-xl font-semibold text-gray-900 tracking-tight">REVIO</span></div>
+      <div className="shrink-0 mb-10 pr-4 pl-4"><span className="text-xl font-semibold text-gray-900 tracking-tight">ONDIAL</span></div>
       <nav className="flex flex-col gap-1.5 flex-1 shrink-0">
         <a href="#" className="nav-item flex items-center gap-3 px-4 py-3 rounded-xl text-sm relative transition-all bg-[#F4F5F7] text-gray-900 font-medium">
           <div className="nav-indicator absolute left-0 top-1/2 -translate-y-1/2 w-1 h-5 bg-gray-900 rounded-r-md transition-all duration-300"></div>
@@ -12,19 +12,19 @@ function DashboardSidebar() {
         </a>
         <a href="#" className="nav-item flex items-center gap-3 hover:bg-gray-50 hover:text-gray-900 transition-all text-sm rounded-xl pt-3 pr-4 pb-3 pl-4 relative text-gray-500 font-normal">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" /><path d="M8 7v7" /><path d="M12 7v4" /><path d="M16 7v9" /></svg>
-          Pipeline
+          Call Logs
         </a>
         <a href="#" className="nav-item flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-normal text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-all relative mt-2">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17" /><polyline points="16 7 22 7 22 13" /></svg>
-          Forecasts
+          Analytics
         </a>
         <a href="#" className="nav-item flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-normal text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-all relative">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" /></svg>
-          Deal Intelligence
+          AI Agents
         </a>
         <a href="#" className="nav-item flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-normal text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-all relative">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="9" cy="7" r="4" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg>
-          Team Analytics
+          Languages
         </a>
         <a href="#" className="nav-item flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-normal text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition-all relative">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect width="7" height="7" x="14" y="3" rx="1" /><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3" /></svg>
@@ -47,7 +47,7 @@ function DashboardSidebar() {
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
         </button>
         <h4 className="text-sm font-medium text-gray-900 mb-1">Upgrade to Pro!</h4>
-        <p className="text-[11px] text-gray-500 mb-3 leading-relaxed">Full pipeline insights with predictive AI models.</p>
+        <p className="text-[11px] text-gray-500 mb-3 leading-relaxed">Full voice analytics with multilingual AI models.</p>
         <button id="upgrade-btn" className="w-full bg-gray-900 text-white rounded-xl py-2 text-xs font-medium hover:bg-gray-800 transition-all">Upgrade now</button>
       </div>
     </aside>
@@ -68,13 +68,13 @@ function DashboardHeader() {
         <div className="hidden sm:flex items-center gap-3 bg-white border border-gray-200/60 rounded-full pr-5 pl-1.5 py-1.5 shadow-sm cursor-pointer hover:bg-gray-50 transition-colors">
           <img src="https://i.pravatar.cc/150?img=11" alt="Profile" className="w-8 h-8 rounded-full object-cover" />
           <div className="flex flex-col">
-            <span className="text-[13px] font-medium text-gray-900 leading-tight">Michael Johnson</span>
-            <span className="text-[11px] text-gray-500 leading-tight">Sales Director</span>
+            <span className="text-[13px] font-medium text-gray-900 leading-tight">Rahul Sharma</span>
+            <span className="text-[11px] text-gray-500 leading-tight">Account Manager</span>
           </div>
         </div>
         <button className="flex items-center gap-2 bg-white border border-gray-200/60 rounded-xl px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-50 transition-colors shadow-sm">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" /><path d="M12 8v8" /><path d="M8 12h8" /></svg>
-          New Report
+          New Campaign
         </button>
       </div>
     </header>
@@ -87,22 +87,22 @@ function ConversionIntelligenceWidget() {
       <div className="flex-1 min-h-[160px] rounded-[1.5rem] bg-gradient-to-br from-[#f3f4fd] to-[#fcfcff] relative overflow-hidden shadow-[inset_0_2px_15px_rgba(0,0,0,0.02)] border border-white/80 flex flex-col p-5 mb-3 shrink-0">
         <div className="flex justify-between items-start z-20 relative">
           <div>
-            <h3 className="text-[15px] font-medium text-gray-900">Conversion Intelligence</h3>
+            <h3 className="text-[15px] font-medium text-gray-900">Call Performance</h3>
             <div className="flex items-center gap-4 mt-2">
-              <div className="flex items-center gap-1.5"><div className="w-2 h-2 rounded-full bg-[#FF7B7B]"></div><span className="text-[11px] text-gray-500 font-normal">Pipeline Value</span></div>
-              <div className="flex items-center gap-1.5"><div className="w-2 h-2 rounded-full bg-[#FFD166]"></div><span className="text-[11px] text-gray-500 font-normal">Active Deals</span></div>
+              <div className="flex items-center gap-1.5"><div className="w-2 h-2 rounded-full bg-[#FF7B7B]"></div><span className="text-[11px] text-gray-500 font-normal">Inbound Calls</span></div>
+              <div className="flex items-center gap-1.5"><div className="w-2 h-2 rounded-full bg-[#FFD166]"></div><span className="text-[11px] text-gray-500 font-normal">Outbound Calls</span></div>
             </div>
             <div className="flex items-center gap-5 mt-1">
-              <span className="text-sm font-semibold text-gray-900">$842,105</span>
-              <span className="text-sm font-semibold text-gray-900">4,210</span>
+              <span className="text-sm font-semibold text-gray-900">12,480 Calls</span>
+              <span className="text-sm font-semibold text-gray-900">8,340</span>
             </div>
           </div>
           <button className="flex items-center gap-1.5 px-3 py-1 rounded-full border border-indigo-100 bg-white/50 backdrop-blur-sm text-[11px] font-medium text-gray-700 hover:bg-white transition-colors shadow-sm">Monthly <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m6 9 6 6 6-6" /></svg></button>
         </div>
         <div className="absolute inset-0 pt-[100px] pb-4 px-5 flex items-end">
           <div className="absolute bottom-6 left-5 z-10 max-w-[130px]">
-            <div className="text-3xl font-semibold text-gray-900 tracking-tight leading-none drop-shadow-sm">+28.4%</div>
-            <p className="text-[11px] text-gray-500 mt-1.5 leading-snug font-normal">Proprietary velocity tracking.</p>
+            <div className="text-3xl font-semibold text-gray-900 tracking-tight leading-none drop-shadow-sm">+34.2%</div>
+            <p className="text-[11px] text-gray-500 mt-1.5 leading-snug font-normal">AI call resolution rate.</p>
           </div>
           <div className="w-full h-full relative ml-[140px] flex items-end justify-between px-2 pb-5">
             <svg className="absolute inset-0 w-full h-full pointer-events-none" preserveAspectRatio="none" viewBox="0 0 100 100">
@@ -128,8 +128,8 @@ function ConversionIntelligenceWidget() {
         </div>
       </div>
       <div className="pt-1 px-3 pb-2 shrink-0">
-        <h3 className="text-xl font-medium tracking-tight text-gray-900">Advanced Velocity</h3>
-        <p className="text-[13px] text-gray-500 mt-1 leading-relaxed truncate">Continuous analysis of pipeline throughput to predict month-end results with 98% accuracy.</p>
+        <h3 className="text-xl font-medium tracking-tight text-gray-900">Live Call Metrics</h3>
+        <p className="text-[13px] text-gray-500 mt-1 leading-relaxed truncate">Continuous analysis of call throughput and AI response time with under 300ms latency.</p>
       </div>
     </div>
   )
@@ -140,11 +140,11 @@ function RevenueProjectionWidget() {
     <div className="flex-1 flex flex-col overflow-hidden group min-h-[260px] bg-white h-full border-gray-100 border rounded-[2rem] pt-3 pr-3 pb-3 pl-3 relative shadow-[0_10px_30px_-10px_rgba(0,0,0,0.06),inset_0_1px_0_white]">
       <div className="flex-1 min-h-[160px] rounded-[1.5rem] bg-gradient-to-br from-[#f2fdf7] to-[#fbfffb] relative overflow-hidden shadow-[inset_0_2px_15px_rgba(0,0,0,0.02)] border border-white/80 flex flex-col p-5 mb-3 shrink-0">
         <div className="flex justify-between items-start mb-2 relative z-20">
-          <h3 className="text-[15px] font-medium text-gray-900">Revenue Projection</h3>
+          <h3 className="text-[15px] font-medium text-gray-900">Campaign Reach</h3>
         </div>
         <div className="mb-3 relative z-20">
-          <p className="text-[11px] text-gray-500 font-medium">Projected Q4 Exit</p>
-          <div className="text-[24px] font-semibold text-gray-900 tracking-tight mt-0.5">$142,850</div>
+          <p className="text-[11px] text-gray-500 font-medium">Projected Monthly Calls</p>
+          <div className="text-[24px] font-semibold text-gray-900 tracking-tight mt-0.5">48,200</div>
         </div>
         <div className="flex-1 w-full flex items-end justify-between px-1 relative min-h-[100px] z-10">
           {[
@@ -175,8 +175,8 @@ function RevenueProjectionWidget() {
         </div>
       </div>
       <div className="pt-1 px-3 pb-2 shrink-0">
-        <h3 className="text-xl font-medium tracking-tight text-gray-900">Growth Forecasting</h3>
-        <p className="text-[13px] text-gray-500 mt-1 leading-relaxed truncate">Integrated prediction engine modeling future growth trajectories based on current momentum.</p>
+        <h3 className="text-xl font-medium tracking-tight text-gray-900">Volume Forecasting</h3>
+        <p className="text-[13px] text-gray-500 mt-1 leading-relaxed truncate">AI-driven prediction engine modeling future call volumes and agent capacity requirements.</p>
       </div>
     </div>
   )
@@ -186,10 +186,10 @@ function SalesTargetsWidget() {
   return (
     <div className="bg-white rounded-[24px] p-5 border border-gray-100 shadow-sm shrink-0">
       <div className="flex justify-between items-center mb-5">
-        <div><h3 className="text-[15px] font-medium text-gray-900">Sales Targets</h3><p className="text-[11px] text-gray-400 font-medium">Quick actions</p></div>
+        <div><h3 className="text-[15px] font-medium text-gray-900">Active AI Agents</h3><p className="text-[11px] text-gray-400 font-medium">Live monitoring</p></div>
         <button className="flex items-center gap-1.5 px-2.5 py-1 text-[11px] font-medium text-gray-700 bg-white rounded-xl border border-gray-200/80 hover:bg-gray-50 transition-colors shadow-sm">
           <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14" /><path d="M12 5v14" /></svg>
-          Update Target
+          Deploy Agent
         </button>
       </div>
       <div className="flex items-center justify-between gap-4">
@@ -199,7 +199,7 @@ function SalesTargetsWidget() {
               <span className="text-3xl font-medium tracking-tight text-slate-900">8,458</span>
               <span className="flex items-center text-[10px] font-medium text-[#50C878]">+1.124</span>
             </div>
-            <p className="text-[11px] font-normal text-slate-400 leading-tight">Your sales increased this month by around 58%</p>
+            <p className="text-[11px] font-normal text-slate-400 leading-tight">Your AI calls increased this month by around 58%</p>
           </div>
           <div className="flex justify-between items-center mt-3">
             <span className="text-lg font-bold tracking-tighter">$142.8k<span className="text-[10px] text-[#50C878]">+14%</span></span>
@@ -221,17 +221,17 @@ function SalesTargetsWidget() {
 
 function RecentActivityWidget() {
   const activities = [
-    { name: 'Acme Corp Expansion', sub: 'Closed Won • Today', amount: '+$125,000', tag: 'High Intent', tagColor: 'text-[#50C878]' },
-    { name: 'Global Tech Renewal', sub: 'At Risk • 2d ago', amount: '$45,000', tag: 'Action Needed', tagColor: 'text-orange-400' },
-    { name: 'Nexa Industries', sub: 'Proposal Sent • 3d ago', amount: '$85,000', tag: 'On Track', tagColor: 'text-blue-400' },
-    { name: 'Zenith Solutions', sub: 'Closed Lost • 4d ago', amount: '-$32,000', tag: 'Lost to competitor', tagColor: 'text-rose-400' },
-    { name: 'Apex Innovations', sub: 'Demo Scheduled • 5d ago', amount: '$18,000', tag: 'Moving fast', tagColor: 'text-purple-400' },
-    { name: 'Orbit Systems', sub: 'Discovery Call • 6d ago', amount: '$54,000', tag: 'Early stage', tagColor: 'text-gray-400' },
+    { name: 'Healthcare Clinic – Dr. Patel', sub: 'Appt Confirmed • Today', amount: '+120 Calls', tag: 'High Engagement', tagColor: 'text-[#50C878]' },
+    { name: 'FinServ Client – HDFC', sub: 'At Risk • 2d ago', amount: '45 Calls', tag: 'Action Needed', tagColor: 'text-orange-400' },
+    { name: 'RealEstate – Prestige Homes', sub: 'Viewed • 3d ago', amount: '85 Calls', tag: 'On Track', tagColor: 'text-blue-400' },
+    { name: 'E-Commerce – Nykaa', sub: 'Abandoned • 4d ago', amount: '-32 Calls', tag: 'Cart Recovery', tagColor: 'text-rose-400' },
+    { name: 'EdTech – Byju\'s', sub: 'Demo Scheduled • 5d ago', amount: '18 Calls', tag: 'Moving fast', tagColor: 'text-purple-400' },
+    { name: 'Logistics – Delhivery', sub: 'Discovery Call • 6d ago', amount: '54 Calls', tag: 'Early stage', tagColor: 'text-gray-400' },
   ]
   return (
     <div className="bg-white rounded-[24px] p-5 border border-gray-100 shadow-sm flex-1 flex flex-col min-h-0 overflow-hidden">
       <div className="flex justify-between items-center mb-4 sticky top-0 bg-white/95 backdrop-blur-sm z-10 pb-1 shrink-0">
-        <h3 className="text-[15px] font-medium text-gray-900">Recent Activity</h3>
+        <h3 className="text-[15px] font-medium text-gray-900">Recent Call Logs</h3>
         <button className="flex items-center gap-1 px-2 py-1 text-[11px] font-medium text-gray-600 bg-[#F4F5F7] rounded-md border border-gray-200/50">7d <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m6 9 6 6 6-6" /></svg></button>
       </div>
       <div className="flex-1 flex flex-col gap-4 overflow-y-auto custom-scrollbar pr-1">
@@ -257,8 +257,8 @@ export default function PlatformOverview() {
         </a>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 mb-16 gap-x-8 gap-y-8 items-start animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.2s both' }}>
-        <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-slate-900 leading-[1.15]">You set the revenue<br className="hidden lg:block" /> targets. Revio predicts the rest.</h2>
-        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">Revio's AI monitors your sales pipeline and forecasts revenue for you, 24/7. Perfect for leaders and reps alike. No coding, no guesswork.</p>
+        <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-slate-900 leading-[1.15]">You set the goals.<br className="hidden lg:block" /> OnDial handles the calls.</h2>
+        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">OnDial's AI manages your voice communication and automates customer engagement for you, 24/7. Perfect for any team size. No coding, no guesswork.</p>
       </div>
 
       {/* Dashboard Mockup */}
