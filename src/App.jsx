@@ -5,6 +5,7 @@ import Footer from './components/layout/Footer.jsx'
 import Hero from './components/sections/Hero.jsx'
 import PlatformOverview from './components/sections/PlatformOverview.jsx'
 import FeaturesOverview from './components/sections/FeaturesOverview.jsx'
+import IndianLanguages from './components/sections/IndianLanguages.jsx'
 import Pricing from './components/sections/Pricing.jsx'
 import Testimonials from './components/sections/Testimonials.jsx'
 import CtaFaq from './components/sections/CtaFaq.jsx'
@@ -49,16 +50,33 @@ export default function App() {
   useLucideIcons()
 
   return (
-    <div className="min-h-screen flex flex-col antialiased selection:bg-emerald-500/20 selection:text-emerald-600 overflow-x-hidden text-slate-800 bg-[#FAFAFB] relative">
-      <BackgroundLines />
-      <Navbar />
-      <Hero />
-      <PlatformOverview />
-      <FeaturesOverview />
-      <Pricing />
-      <Testimonials />
-      <CtaFaq />
-      <Footer />
+    <div className="min-h-screen flex flex-col antialiased selection:bg-emerald-500/20 selection:text-emerald-600 overflow-x-hidden text-slate-800 bg-transparent relative">
+      {/* Background Video */}
+      <div className="fixed inset-0 z-0 pointer-events-none">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/gradient_bg_clean_Trim.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      {/* Main Content */}
+      <div className="relative z-10 flex flex-col min-h-screen w-full">
+        <BackgroundLines />
+        <Navbar />
+        <Hero />
+        <PlatformOverview />
+        <FeaturesOverview />
+        <IndianLanguages />
+        <Pricing />
+        <Testimonials />
+        <CtaFaq />
+        <Footer />
+      </div>
     </div>
   )
 }

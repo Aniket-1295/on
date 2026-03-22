@@ -60,7 +60,7 @@ function RevenueForecastingCard() {
       <div className="h-[22rem] rounded-[1.5rem] bg-gradient-to-br from-[#fffaf7] to-[#fffdfc] relative overflow-hidden shadow-[inset_0_2px_15px_rgba(0,0,0,0.02)] border border-white/80 flex flex-col items-center px-8 mb-4 shrink-0">
         <div className="flex flex-col bg-white w-full max-w-[240px] z-30 border-orange-50/50 border rounded-2xl mt-8 pt-4 pr-4 pb-4 pl-4 relative shadow-[0_15px_35px_-10px_rgba(0,0,0,0.08),inset_0_2px_4px_white,inset_0_0_0_1px_rgba(251,146,60,0.1)]" style={{ animation: 'floatUpCard 5s ease-in-out infinite' }}>
           <div className="flex justify-between items-center w-full relative z-10">
-            <span className="text-xs font-semibold text-gray-500 tracking-wide">Forecast Accuracy</span>
+            <span className="text-xs font-semibold text-gray-500 tracking-wide">AI-powered analytics</span>
             <span className="text-xs font-bold text-orange-500 bg-orange-50 px-2 py-1 rounded-md border border-orange-100/50">98.2%</span>
           </div>
           <div className="flex flex-col items-center justify-center w-full mt-5 relative z-10">
@@ -179,12 +179,12 @@ function SupportCard() {
                   <circle cx="30" cy="86" r="2.5" fill="white" stroke="#0EA5E9" strokeWidth="1.5" className="radar-pt-4" style={{ transformOrigin: '30px 86px' }} />
                   <circle cx="20" cy="45" r="2.5" fill="white" stroke="#0EA5E9" strokeWidth="1.5" className="radar-pt-5" style={{ transformOrigin: '20px 45px' }} />
                 </svg>
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 text-center flex flex-col items-center"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Organic</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">589</span></div>
-                <div className="absolute top-6 -right-6 text-left font-medium uppercase tracking-wide text-gray-400 text-[9px] flex flex-col items-start">Direct<span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">402</span></div>
-                <div className="absolute bottom-6 -right-5 text-left flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Referral</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">205</span></div>
-                <div className="absolute -bottom-4 right-8 text-right flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Paid</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">82</span></div>
-                <div className="absolute -bottom-2 -left-4 text-left flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Social</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">317</span></div>
-                <div className="absolute top-10 -left-8 text-left flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Events</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">356</span></div>
+                <div className="absolute -top-4 left-1/2 -translate-x-1/2 text-center flex flex-col items-center"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Organic</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">12</span></div>
+                <div className="absolute top-6 -right-6 text-left font-medium uppercase tracking-wide text-gray-400 text-[9px] flex flex-col items-start">Direct<span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">14</span></div>
+                <div className="absolute bottom-6 -right-5 text-left flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Referral</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">16</span></div>
+                <div className="absolute -bottom-4 right-8 text-right flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide"></span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1"></span></div>
+                <div className="absolute -bottom-2 -left-4 text-left flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Social</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">19</span></div>
+                <div className="absolute top-10 -left-8 text-left flex flex-col items-start"><span className="text-[9px] text-gray-400 font-medium uppercase tracking-wide">Events</span><span className="text-[11px] font-semibold text-gray-900 leading-none mt-1">22</span></div>
               </div>
             </div>
           </div>
@@ -226,11 +226,11 @@ function MultilingualCard() {
                 </div>
                 <div className="flex flex-col gap-2 relative z-10">
                   {[
-                    { color: 'bg-[#4ECDC4]', label: 'Enterprise', delay: '0s' },
-                    { color: 'bg-[#FF7B7B]', label: 'Mid-Market', delay: '0.5s' },
-                    { color: 'bg-[#A7F3D0]', label: 'Strategic', delay: '1s' },
-                    { color: 'bg-[#F1F5F9] border border-gray-200', label: 'Transactional', delay: '1.5s' },
-                    { color: 'bg-[#FFD166]', label: 'Global', delay: '2s' },
+                    { color: 'bg-[#4ECDC4]', label: 'Hindi', delay: '0s' },
+                    { color: 'bg-[#FF7B7B]', label: 'Spanish', delay: '0.5s' },
+                    { color: 'bg-[#A7F3D0]', label: 'Arabic', delay: '1s' },
+                    { color: 'bg-[#F1F5F9] border border-gray-200', label: 'French', delay: '1.5s' },
+                    { color: 'bg-[#FFD166]', label: 'Bengali', delay: '2s' },
                   ].map(({ color, label, delay }) => (
                     <div key={label} className="flex items-center gap-2">
                       <div className={`w-1.5 h-1.5 rounded-full ${color} shadow-sm`} style={{ animation: `soft-pulse-opacity 2.5s ease-in-out infinite ${delay}` }}></div>
@@ -295,15 +295,15 @@ export default function Hero() {
         style={{ animation: 'animationIn 0.8s ease-out 0.2s both' }}
       >
         <span className="flex h-2 w-2 rounded-full bg-emerald-500 mr-2 shadow-[0_0_8px_rgba(16,185,129,0.8)]"></span>
-        <span className="text-xs font-medium text-emerald-700">OnDial AI Voice Agent Platform is now live</span>
+        <span className="text-xs font-medium text-emerald-700"> Automate Your Calls</span>
       </div>
 
       <h1
         className="sm:text-6xl lg:text-7xl leading-[1.1] text-5xl font-semibold text-[#1c1917] tracking-tight max-w-4xl z-10 relative"
         style={{ animation: 'animationIn 0.8s ease-out 0.3s both' }}
       >
-        Automate Your Calls,<br className="hidden sm:block" />
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500">with OnDial AI Voice Agents.</span>
+        More than a Voice<br className="hidden sm:block" />
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-gray-700 to-gray-500"> OnDial AI Voice Agents.</span>
       </h1>
 
       <p

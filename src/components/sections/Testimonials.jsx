@@ -155,8 +155,8 @@ export default function Testimonials() {
         <span className="uppercase text-sm font-medium text-slate-500 tracking-widest">TESTIMONIALS</span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 mb-16 gap-x-8 gap-y-8 items-start animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.2s both' }}>
-        <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-slate-900 leading-[1.15]">Trusted by businesses<br className="hidden lg:block" /> across 20+ industries.</h2>
-        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">Discover why thousands of businesses rely on OnDial AI Voice Agents to automate their phone calls, improve customer satisfaction, and never miss a lead again.</p>
+        <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-slate-900 leading-[1.15]">Everything You Need to <br className="hidden lg:block" /> Know About OnDial.</h2>
+        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">Get answers to the most common questions about how OnDial can transform your business and never let you lose a customer again.</p>
       </div>
 
       {/* Draggable testimonial stack */}

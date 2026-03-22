@@ -87,7 +87,7 @@ function ConversionIntelligenceWidget() {
       <div className="flex-1 min-h-[160px] rounded-[1.5rem] bg-gradient-to-br from-[#f3f4fd] to-[#fcfcff] relative overflow-hidden shadow-[inset_0_2px_15px_rgba(0,0,0,0.02)] border border-white/80 flex flex-col p-5 mb-3 shrink-0">
         <div className="flex justify-between items-start z-20 relative">
           <div>
-            <h3 className="text-[15px] font-medium text-gray-900">Call Performance</h3>
+            <h3 className="text-[15px] font-medium text-gray-900">Live Call Metrics</h3>
             <div className="flex items-center gap-4 mt-2">
               <div className="flex items-center gap-1.5"><div className="w-2 h-2 rounded-full bg-[#FF7B7B]"></div><span className="text-[11px] text-gray-500 font-normal">Inbound Calls</span></div>
               <div className="flex items-center gap-1.5"><div className="w-2 h-2 rounded-full bg-[#FFD166]"></div><span className="text-[11px] text-gray-500 font-normal">Outbound Calls</span></div>
@@ -128,8 +128,8 @@ function ConversionIntelligenceWidget() {
         </div>
       </div>
       <div className="pt-1 px-3 pb-2 shrink-0">
-        <h3 className="text-xl font-medium tracking-tight text-gray-900">Live Call Metrics</h3>
-        <p className="text-[13px] text-gray-500 mt-1 leading-relaxed truncate">Continuous analysis of call throughput and AI response time with under 300ms latency.</p>
+        <h3 className="text-xl font-medium tracking-tight text-gray-900">Ultra-Low Latency Calls</h3>
+        <p className="text-[13px] text-gray-500 mt-1 leading-relaxed truncate">Enjoy human-like conversations with 500 ms response time for a seamless user experience..</p>
       </div>
     </div>
   )
@@ -140,7 +140,7 @@ function RevenueProjectionWidget() {
     <div className="flex-1 flex flex-col overflow-hidden group min-h-[260px] bg-white h-full border-gray-100 border rounded-[2rem] pt-3 pr-3 pb-3 pl-3 relative shadow-[0_10px_30px_-10px_rgba(0,0,0,0.06),inset_0_1px_0_white]">
       <div className="flex-1 min-h-[160px] rounded-[1.5rem] bg-gradient-to-br from-[#f2fdf7] to-[#fbfffb] relative overflow-hidden shadow-[inset_0_2px_15px_rgba(0,0,0,0.02)] border border-white/80 flex flex-col p-5 mb-3 shrink-0">
         <div className="flex justify-between items-start mb-2 relative z-20">
-          <h3 className="text-[15px] font-medium text-gray-900">Campaign Reach</h3>
+          <h3 className="text-[15px] font-medium text-gray-900">Flexible Deployment</h3>
         </div>
         <div className="mb-3 relative z-20">
           <p className="text-[11px] text-gray-500 font-medium">Projected Monthly Calls</p>
@@ -175,8 +175,8 @@ function RevenueProjectionWidget() {
         </div>
       </div>
       <div className="pt-1 px-3 pb-2 shrink-0">
-        <h3 className="text-xl font-medium tracking-tight text-gray-900">Volume Forecasting</h3>
-        <p className="text-[13px] text-gray-500 mt-1 leading-relaxed truncate">AI-driven prediction engine modeling future call volumes and agent capacity requirements.</p>
+        <h3 className="text-xl font-medium tracking-tight text-gray-900">Flexible Deployment</h3>
+        <p className="text-[13px] text-gray-500 mt-1 leading-relaxed truncate">Choose between API integration for developers or a no-code platform for business teams.</p>
       </div>
     </div>
   )
@@ -257,8 +257,8 @@ export default function PlatformOverview() {
         </a>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 mb-16 gap-x-8 gap-y-8 items-start animate-on-scroll" style={{ animation: 'animationIn 0.8s ease-out 0.2s both' }}>
-        <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-slate-900 leading-[1.15]">You set the goals.<br className="hidden lg:block" /> OnDial handles the calls.</h2>
-        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">OnDial's AI manages your voice communication and automates customer engagement for you, 24/7. Perfect for any team size. No coding, no guesswork.</p>
+        <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-slate-900 leading-[1.15]">Trusted by All Businesses Worldwide.<br className="hidden lg:block" /> </h2>
+        <p className="text-xl text-slate-600 leading-relaxed md:pt-2 max-w-lg">OnDial's AI manages your voice communication and automates customer engagement for you, 24/7. Perfect for any team size.no guesswork.</p>
       </div>
 
       {/* Dashboard Mockup */}
